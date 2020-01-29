@@ -1,0 +1,120 @@
+* {
+    /* border:black 1px solid; */
+    box-sizing: border-box;
+    font-style: bold;
+    font-family: 'Rubik', sans-serif;
+    /* color: rgb(194, 73, 102); */
+    color:  rgb(51, 49, 49);
+    text-align: center;
+    
+}
+
+html{
+    /* height: 100%;  */
+    /* width: 100%;  */
+    /* border: black 1px solid ; */
+}
+
+body {
+    min-height: 100vh;
+    height:100%;
+    background-image: url(../images/clouds-1431822.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.footerContainer a {
+    text-decoration: none;
+    text-shadow: none;
+
+}
+
+.nameAndDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.websiteName {
+    color: rgb(194, 73, 102);
+    display: flex;
+    font-size: 70px;
+    padding-top: 20px;
+    text-shadow: 2px 2px whitesmoke;
+    
+}
+
+.websiteDescription {
+    display: flex;
+    font-size: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    align-items: center;
+    text-shadow: 1px 1px whitesmoke;
+    color: rgb(53, 44, 44);
+}
+
+.userInput {
+    padding: 30px;
+    padding-top: 100px;
+    padding-right: 70px;
+    font-size: 25px;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+#locationInput {
+    border-radius: 20px;    
+}
+
+#locationInput:focus {
+    outline: none;
+}
+
+button {
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-shadow: 1px 1px whitesmoke;
+    font-size: 30 px;
+    width: 100%;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    background-image: linear-gradient(rgba(89, 109, 114, 0.7),rgba(63, 73, 77, 0.7));
+    position:relative;
+    bottom: 0%;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.api{
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    padding-right: 20px;
+
+}

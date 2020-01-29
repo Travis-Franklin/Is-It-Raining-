@@ -1,0 +1,109 @@
+.js-resultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 10px;
+    padding-bottom: 50px;
+}
+
+.js-resultCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 500px;
+    width: 300px;
+    /* border: #c25949 7px solid;  */
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 10px 10px 10px rgba(94, 94, 104, 0.5);
+    background-blend-mode: screen;
+    overflow: auto;
+    background-image: linear-gradient(rgba(155, 232, 251, 0.7),rgba(195, 209, 214, 0.7));
+    border-radius: 5px;
+    padding: 5px;
+
+    /* text-shadow: 2.5p2 1px whitesmoke; */
+}
+
+/* .js-resultCard:hover {
+    border: #c28849 5px solid; 
+} */
+
+.js-resultCard .js-iconFrame h3 {
+    order: 1;
+    margin: 0px;
+    font-size: 18px;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+.js-resultCard p {
+    order: 1;
+    flex-basis: auto;
+    min-width: 0;
+    flex-shrink: 2;
+    overflow-wrap: break-word;
+}
+
+.js-resultCard h4 {
+    margin: 0px;
+    order: -1;
+    font-size: 18px;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+.js-resultCard a {
+    order: 2;
+    color: whitesmoke;
+    text-shadow: 1px 2px black;
+    text-decoration-line: none;
+}
+
+.js-pictureFrame {
+    display: flex;
+    justify-content: center;
+    max-height: 150px;
+    padding: 10px;
+}
+
+.js-pictureFrame > img {
+    border-radius: 30px;
+}
+
+.js-iconFrame {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    order: -3;
+    margin: 8px 10px;
+    border-radius: 5px;
+    padding-bottom: 8px;
+    padding-top: -5px;
+}
+
+.js-pictureFrame img {
+    height: 75px;
+}
+
+.js-resultCard h1 {
+    margin: 0;
+    padding: 20px, 0;
+    text-shadow: 2px 2px whitesmoke;
+    flex-basis: auto;
+    min-width: 0;
+    flex-shrink: 2;
+}
+
+.js-resultCard p {
+    margin: 5px;
+    padding: 20px, 5px;
+}
+
+.js-resultCard li {
+    list-style: none;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 2px black;
+}
