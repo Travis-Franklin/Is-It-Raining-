@@ -9,17 +9,14 @@
     
 }
 
-html{
-    /* height: 100%;  */
-    /* width: 100%;  */
-    /* border: black 1px solid ; */
-}
 
 body {
     min-height: 100vh;
     height:100%;
     /* background-image: url(../images/clouds-1431822.jpg) ; */
-    background-color: rgb(45, 125, 216);
+    /* background-color: rgb(45, 125, 216); */
+
+    background-image: linear-gradient(to bottom right, rgb(87, 180, 241), yellow);
     background-size: cover;
     display: flex;
     flex-direction: column;
