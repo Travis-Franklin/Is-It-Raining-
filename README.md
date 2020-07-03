@@ -6,7 +6,7 @@
 
 ![Screenshot with results-large](images/screenshot-large-with-results.png)
 
-## What problem our app solves?
+## What problem our app solves?!
 
 Our app combines data from two different sources, Yelp and Open Weather,in order to render a page that gives local event information combined with the local weather. Currently, the Yelp events page does not have weather information, which is relevant to the a user's decision to attend an event. Our app provides that information so visitors can make a more informed decision as to whether to attend a given event. 
 
