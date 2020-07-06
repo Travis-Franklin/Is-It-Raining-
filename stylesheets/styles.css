@@ -39,11 +39,12 @@ body {
 }
 
 .websiteName {
-    color: rgb(194, 73, 102);
+    /* color: rgb(194, 73, 102); */
+    color: black;
     display: flex;
     font-size: 70px;
     padding-top: 20px;
-    text-shadow: 1px 1px whitesmoke;
+    /* text-shadow: 1px 1px whitesmoke; */
     
 }
 
@@ -54,7 +55,7 @@ body {
     padding-right: 100px;
     padding-top: 50px;
     align-items: center;
-    text-shadow: 1px 1px whitesmoke;
+    /* text-shadow: 1px 1px whitesmoke; */
     color: rgb(53, 44, 44);
 }
 
