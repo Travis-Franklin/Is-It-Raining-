@@ -18,7 +18,8 @@
         color: rgb(53, 44, 44);
     }
     .websiteName {
-        color: rgb(194, 73, 102);
+        /* color: rgb(194, 73, 102); */
+        color: black;
         display: flex;
         font-size: 40px;
         padding-top: 20px;
