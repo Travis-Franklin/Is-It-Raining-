@@ -92,13 +92,13 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    color: red;
     /* text-shadow: 1px 1px whitesmoke; */
     font-size: 30 px;
     width: 100%;
     /* padding-top: 5px;
     padding-bottom: 5px; */
-    background-image: linear-gradient(rgba(89, 109, 114, 0.7),rgba(63, 73, 77, 0.7));
+    background-image: linear-gradient(rgba(89, 109, 114, 0.7),rgba(94, 131, 146, 0.7));
     position:relative;
     bottom: 0%;
     text-decoration: underline;
